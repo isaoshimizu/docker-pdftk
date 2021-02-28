@@ -11,5 +11,5 @@ https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 Extract the third page of a given PDF file.
 
 ```
-docker run -it -v $(PWD):/mnt pdftk /usr/bin/pdftk /mnt/input.pdf cat 3 output /mnt/output.pdf
+docker run -it -v $(PWD):/mnt isaoshimizu/pdftk /usr/bin/pdftk /mnt/input.pdf cat 3 output /mnt/output.pdf
 ```
